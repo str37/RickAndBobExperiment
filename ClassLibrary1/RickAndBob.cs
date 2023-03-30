@@ -3,13 +3,13 @@
 
     public interface IRickAndBob
     {
-        List<string> GetRickAndBobifiedList(int listLength);
+        List<string> GetRickAndBobifiedList();
 
     }
     public class RickAndBob : IRickAndBob
     {
 
-        public List<string>  GetRickAndBobifiedList(int listLength)
+        public List<string>  GetRickAndBobifiedList()
         {
             List<string> l = new List<string>();
 
