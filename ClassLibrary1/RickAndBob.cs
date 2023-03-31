@@ -1,4 +1,7 @@
-﻿namespace RickAndBobLib
+﻿
+using System.Collections.Generic;
+
+namespace RickAndBobLib
 {
 
     public interface IRickAndBob
